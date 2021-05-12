@@ -1,16 +1,16 @@
-# movies
+# movieApp
 
-A new Flutter application.
+Esta es una aplicación en donde se listan las mejores o últimas peliculas de cine
 
-## Getting Started
+Se listan las peliculas, con la opción de seleccionar una, la cual aparece en un panel inferior, el rating de la pelicula podrá ser modificado y este cambiará en tiempo real en el app
 
-This project is a starting point for a Flutter application.
+## Modulos utilizados
 
-A few resources to get you started if this is your first Flutter project:
+Para el desarrollo del app se utilizó los siguientes paquetes
+- [GETX](https://pub.dev/packages/get) Manejo de estados dentro del app
+- [cloud_firestore](https://pub.dev/packages/cloud_firestore) Listado y manejo de los ratings de las peliculas
+- [star_rating](https://pub.dev/packages/star_rating) Para hacer la logica de las estrellas y rating
+- [sliding_up_panel](https://pub.dev/packages/sliding_up_panel) Ver el detalle de la pelicula
+- [ez_localization](https://pub.dev/packages/ez_localization) Localización del app
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 
